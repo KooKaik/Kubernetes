@@ -1,0 +1,41 @@
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: administrateur
+rules:
+- apiGroups: [""]
+  resources: ["namespace"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+
+---
+
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: sysops
+rules:
+- apiGroups: [""]
+  resources: ["namespace"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+
+---
+
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: dev
+rules:
+- apiGroups: [""]
+  resources: ["namespace"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+
+---
+
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: client
+rules:
+- apiGroups: [""]
+  resources: ["namespace"]
+  verbs: ["get", "list", "watch"]
