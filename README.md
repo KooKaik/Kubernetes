@@ -1,6 +1,6 @@
 # Kubernetes
 
-Pour la mise en place de nos services avec Kubernetes, on pourra retrouver les différentes documentations nécessaires numérotées de 1 à 8.
+Pour la mise en place de nos services avec Kubernetes, on pourra retrouver les différentes documentations nécessaires numérotées de 1 à 9.
 
 Ces documentation contiennent les commandes nécessaires à la mise en place d'un service ainsi que les commandes ou les procédures pour tester.
 
